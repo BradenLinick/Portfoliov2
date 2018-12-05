@@ -1,17 +1,23 @@
 {
-  "name": "modern_portfolio",
+  "name": "myportfolio",
   "version": "1.0.0",
-  "description": "Responsive portfolio website",
+  "description": "My portfolio",
   "main": "index.js",
-  "homepage": "https://bradtraversy.github.io/modern_portfolio",
-  "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist"
-  },
-  "author": "Brad Traversy",
-  "license": "MIT",
   "dependencies": {
-    "gh-pages": "^1.2.0",
-    "node-sass": "^4.9.2"
-  }
+    "node-sass": "^4.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BradenLinick/Portfoliov2.git"
+  },
+  "author": "Braden Linick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BradenLinick/Portfoliov2/issues"
+  },
+  "homepage": "https://github.com/BradenLinick/Portfoliov2#readme"
 }
